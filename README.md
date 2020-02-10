@@ -26,7 +26,8 @@ TODO: how to get the project dev environment up and running, npm install etc, al
 ## Deployment
 
 TODO: how to deploy the project
-* Clone this repository into any folder. Then, open the project in Unity! An Oculus Quest is required to run the application. Open the companion Python app as well.
+* Clone this repository into any folder. Then, open the project in Unity! An Oculus Quest is required to run the application, so plug in an Oculus Quest into your computer via USB cable. Enable USB debugging on the Oculus Quest. Open the companion Python app as well.
+* Go to Build Settings, and ensure that it is building to Android. Go to player settings and ensure that Quest is set as the build target. Then, click Build and Run, save the .apk into any folder you would like, and enjoy!
 
 ## Authors
 
