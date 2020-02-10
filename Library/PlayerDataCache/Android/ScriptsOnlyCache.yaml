@@ -1,32 +1,40 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - ButtonListener
     - ONSPSettings
     - Oculus.Platform.PlatformSettings
+    - OculusSampleFramework.ButtonController
+    - OculusSampleFramework.ButtonTriggerZone
     - OculusSampleFramework.FingerTipPokeTool
     - OculusSampleFramework.FingerTipPokeToolView
+    - OculusSampleFramework.Hand
+    - OculusSampleFramework.HandMesh
+    - OculusSampleFramework.HandPhysics
+    - OculusSampleFramework.HandSkeleton
+    - OculusSampleFramework.Hands
     - OculusSampleFramework.InteractableToolsCreator
     - OculusSampleFramework.InteractableToolsInputRouter
     - OculusSampleFramework.RayTool
     - OculusSampleFramework.RayToolView
+    - OculusSampleFramework.SkeletonVisualizer
     Oculus.VR.Editor.dll:
     - OVRConfig
     Oculus.VR.dll:
     - OVRCameraRig
-    - OVRDebugInfo
     - OVRHeadsetEmulator
     - OVRManager
-    - OVRPlayerController
-    - OVRSceneSampleController
-    - OVRScreenFade
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.Text
   sceneClasses:
     Assets/Scenes/Backstage.unity:
     - Class: 1
@@ -49,6 +57,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 64
       Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 104
@@ -58,37 +68,45 @@ ScriptsOnlyBuild:
     - Class: 109
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 9804}
+    - Class: 114
       Script: {instanceID: 9816}
     - Class: 114
       Script: {instanceID: 9882}
     - Class: 114
+      Script: {instanceID: 9942}
+    - Class: 114
+      Script: {instanceID: 9970}
+    - Class: 114
       Script: {instanceID: 10028}
     - Class: 114
-      Script: {instanceID: 10242}
+      Script: {instanceID: 10050}
+    - Class: 114
+      Script: {instanceID: 10104}
+    - Class: 114
+      Script: {instanceID: 10368}
     - Class: 114
       Script: {instanceID: 10568}
     - Class: 114
       Script: {instanceID: 10668}
     - Class: 114
-      Script: {instanceID: 10770}
-    - Class: 114
       Script: {instanceID: 10788}
     - Class: 114
-      Script: {instanceID: 10928}
-    - Class: 114
-      Script: {instanceID: 11038}
+      Script: {instanceID: 11102}
     - Class: 114
       Script: {instanceID: 11142}
+    - Class: 114
+      Script: {instanceID: 11256}
     - Class: 114
       Script: {instanceID: 11260}
     - Class: 114
       Script: {instanceID: 11298}
     - Class: 114
-      Script: {instanceID: 11390}
-    - Class: 114
       Script: {instanceID: 11488}
     - Class: 114
-      Script: {instanceID: 11584}
+      Script: {instanceID: 11520}
+    - Class: 114
+      Script: {instanceID: 11652}
     - Class: 114
       Script: {instanceID: 11896}
     - Class: 114
@@ -97,13 +115,21 @@ ScriptsOnlyBuild:
       Script: {instanceID: 12318}
     - Class: 114
       Script: {instanceID: 12414}
+    - Class: 114
+      Script: {instanceID: 12496}
+    - Class: 114
+      Script: {instanceID: 25990}
     - Class: 115
       Script: {instanceID: 0}
-    - Class: 120
+    - Class: 128
       Script: {instanceID: 0}
-    - Class: 143
+    - Class: 137
       Script: {instanceID: 0}
     - Class: 157
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
       Script: {instanceID: 0}
     - Class: 223
       Script: {instanceID: 0}
@@ -800,12 +826,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: SignalTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 8df83c1d3e7a3ad3391baa96416890a8
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ButtonListener
   - hash:
       serializedVersion: 2
       Hash: 9edf0788742c31d8eaaf32cf4feac747
@@ -1682,6 +1702,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 8df83c1d3e7a3ad3391baa96416890a8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ButtonListener
+  - hash:
+      serializedVersion: 2
+      Hash: ec64cf20e80514cf77ebac4a86e769ad
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OpenMusicBook
   platform: 13
   scenePathNames:
   - Assets/Scenes/Backstage.unity
