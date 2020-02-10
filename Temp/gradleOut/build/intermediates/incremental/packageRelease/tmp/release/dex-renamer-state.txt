@@ -1,4 +1,0 @@
-#Mon Feb 10 01:23:05 EST 2020
-base.0=/Users/Soohwan/Documents/Dartmouth/2019-2020/20W/CS 98/20w-ensemble-vr/20w-ensemble-vr/Temp/gradleOut/build/intermediates/transforms/dexMerger/release/0
-path.0=classes.dex
-renamed.0=classes.dex
